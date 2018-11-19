@@ -1,0 +1,867 @@
+@charset "utf-8";
+DIV#pankuzu_r {
+    max-width: 967px;
+    width: 100%;
+	height: auto;
+	margin: -5px auto 10px;
+	}
+DIV#pankuzu_r:after {
+	content: '';
+	display: block;
+	clear: both;
+	}
+.l-sns-list {
+	letter-spacing: -.4em;
+	float: right;
+	display: table;
+	table-layout: fixed;
+	margin: 0 -10px 0 0;
+	}
+.l-sns-item {
+	vertical-align: top;
+	letter-spacing: 0;
+	margin: 0 0 0 0;
+	display: table-cell;
+	padding: 0 10px 0 0;
+	}
+#hd600_500 h2,div,p,span,table,th,tr,td{
+	font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", sans-serif;
+	}
+.top-image{
+	display: block;
+    max-width: 1200px;
+    width: 100%;
+	}
+.models{
+    display: block;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+	}
+.intro_txt{
+	font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", sans-serif;
+	max-width: 600px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 1.5em;
+    margin: 2em auto;
+	padding: 0;
+    text-align: left;
+	box-sizing: border-box;
+	color: #515151;
+	}
+.about_term{
+	max-width:967px;
+	width:100%;
+	color:crimson;
+	font-size:2em;
+	text-align:center;
+	margin: 0.2em auto;
+	}
+@media screen and (max-width: 425px){
+	.about_term{
+		font-size: 1.25em;
+		}	
+	}
+.btn_tobottom{
+	display: block;
+    max-width: 350px;
+    width: 100%;
+    margin: 1.5em auto;
+    padding: 1em 0;
+    background: #efefef;
+	text-decoration: none;
+	}
+.notice_questionnaire{
+	position:relative;
+	overflow:hidden;
+	max-width: 1200px;
+    width: 100%;
+	}
+.notice_questionnaire::before{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: #dddfe3;
+    width: 200%;
+    height: 300%;
+    transform: rotate(-30deg);
+	}
+.notice_questionnaire .notice_questionnaire_textarea{
+	position: relative;
+    max-width: 600px;
+    width: 100%;
+    margin: 2em auto;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #efefef;
+    box-sizing: border-box;
+	}
+.notice_questionnaire .notice_questionnaire_textarea .headline{
+	text-align: center;
+    font-size: 2.0em;
+    font-weight: lighter;
+    background: #515151;
+    color: #fff;
+    margin: 0;
+    padding: 0.25em 0;
+	}
+@media screen and (max-width: 425px){
+	.btn_tobottom{
+		max-width: 250px;
+		}
+	.notice_questionnaire .notice_questionnaire_textarea{
+		max-width: 300px;
+		}
+	.notice_questionnaire .notice_questionnaire_textarea .headline{
+		font-size: 1.5em;
+		padding: 0.5em 0;
+		}
+	}	
+.notice_questionnaire .notice_questionnaire_textarea .date{
+	font-size: 1.25em;
+    color: crimson;
+    margin: 1em auto;	
+	}
+#hd600_500 h2{
+	font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", sans-serif;
+	font-size: 3em;
+    font-weight: lighter;
+    border-top: none;
+    max-width: 967px;
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid #eaeaea;
+	box-sizing: border-box;
+	}
+#hd600_500 h3{
+	font-weight: lighter;
+    font-size: 1.4em;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: content-box;
+    color: #515151;
+	}
+@media screen and (max-width: 425px){
+	#hd600_500 h3{
+		margin: 0.5em;
+		}
+	}
+.features{
+    margin: 6em auto 0;
+    max-width: 1200px;
+    width: 100%;
+	}
+.features .features_headline{
+	font-size:6em;
+	margin:0.5em auto 0;
+	font-weight: bold;
+	}
+@media screen and (max-width: 425px){
+	.features .features_headline{
+		font-size:3em;
+		padding: 0 0 0 0.3em;
+		font-weight: bold;
+		}
+	}
+.features p{
+    max-width: 960px;
+    width: 100%;
+    font-size: 4em;
+	box-sizing: border-box;
+	margin: 0.5em 0 1em;
+	color: #515151;
+	}
+.features .text_area{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	box-sizing: border-box;
+	}
+.features .bg_fixed p{
+	text-align: right;
+    font-size: 10em;
+    font-weight: bold;
+    color: #fff;
+	margin: 0;
+	padding: 0 0.1em 0 0;
+	max-width: 100%;
+    text-shadow: 0 0 10px #9e9e9e;
+	}
+.features p sup{
+	font-size: 0.4em;
+    vertical-align: text-top;
+	}
+.features p span.features_01_note{
+    text-align: right;
+    font-size: 0.2em;
+	display:block;
+	margin: 0.5em 0 0;
+	}
+@media screen and (max-width: 425px){
+	.features p span.features_01_note{
+		font-size: 0.5em;
+		}
+}
+.features .features_02{
+	text-align:right;
+	}
+.bg_fixed{
+	max-height: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+	padding-top: 60%;
+	}
+.bg_01{
+	background-image:url('../img/img_03.png');
+	}
+.bg_02{
+	background-image:url('../img/img_04.png');
+	}
+.bg_02 p span{
+    display: block;
+    font-size: 0.4em;
+	margin: 0.5em 0;
+	}
+.bg_03{
+	background-image:url('../img/img_05.png');
+	}
+@media screen and (min-width: 769px){
+	.top_sp,.model_sp{
+		display:none;
+		}
+	}
+@media screen and (max-width: 768px){
+	.top_pc,.model_pc{
+		display:none;
+		}
+	.features .bg_fixed p{
+		font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", sans-serif;
+		font-size: 4em;
+		margin: 0;
+		}
+	.bg_fixed{
+		background-attachment: scroll;
+		height: 100%;
+		}
+	.intro_txt {
+		font-size: 1.15em;
+		line-height: 1.7;
+		padding: 0 1em;
+		box-sizing: border-box;
+		}
+	.features .text_area p{
+		font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", sans-serif;
+		font-size: 2.0em;
+		margin: 0.5em;
+		line-height: 1.4;
+		}
+	}
+.spec_area{
+	position: relative;
+	background: #f3f3f3;
+	overflow: auto;
+	padding: 5em 0;
+	}
+.spec_area .scroll{
+    position: absolute;
+    top: 3em;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    max-width: 80px;
+    padding: 0.5em 0;
+    border-radius: 5px;
+	}
+@media screen and (min-width: 426px){
+	.spec_area .scroll{
+		display:none;
+		}
+	}
+.spec_area h3{
+	font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", sans-serif;
+	}
+.spec_area .spec_list th,tr,td{
+	font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", sans-serif;
+	}
+.spec_area .spec_list{
+	max-width: 960px;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+	border-collapse: separate;
+	border-spacing: 2px;
+	text-align: center;
+	}
+@media screen and (max-width: 425px){
+	.spec_area .spec_list{
+		width: 600px;
+        overflow: scroll;
+		}
+	}	
+.spec_area .spec_list th{
+	background:#515151;
+	color:#fff;
+	width: 10em;
+    padding: 0.5em;
+	vertical-align: middle;
+	}
+.spec_area .spec_list th[rowspan="6"]{
+	width: 1em;
+	}
+.spec_area .spec_list td{
+	background:#fff;
+	vertical-align: middle;
+    padding: 0.5em 0;
+	}
+.spec_area .spec_list img{
+	display: block;
+    max-width: 600px;
+    width: 100%;
+	}
+.spec_area .spec_list .vertical{
+	writing-mode: vertical-rl;
+	}
+.spec_area .btn_spec{
+	position: relative;
+    max-width: 300px;
+    width: 100%;
+    font-size: 1.2em;
+    display: block;
+    margin: 1.0em auto;
+    text-align: center;
+    padding: 1.0em;
+    color: #515151;
+	text-decoration: none;
+	box-sizing: border-box;
+	}
+.spec_area .btn_spec:hover{
+	background:#fff;
+    color: #cccccc;	
+	}
+span.fileicon{
+	position: absolute;
+    display: block;
+    background: #ffffff;
+    border: 1px solid #515151;
+    height: 13px;
+    width: 10px;
+    transition: all 0.3s;
+	}
+span.fileicon:nth-of-type(1){
+	right: 15%;
+    top: 35%;
+	}
+span.fileicon:nth-of-type(2){
+	right: 16%;
+    top: 40%;
+	}
+@media screen and (max-width: 425px){
+	span.fileicon:nth-of-type(1){
+			right: 4.5em;
+			top: 0.8em;		
+		}
+	span.fileicon:nth-of-type(2){
+		    right: 4.7em;
+			top: 1.0em;
+			}
+	}
+.spec_area .btn_spec:hover span.fileicon{
+	background: #f6edc6;
+	border: 1px solid #ffffff;
+	}
+.hd600_area{
+	margin: 5em 0 0 0;
+	}
+.hd600_area p,a{
+	font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", sans-serif;
+	}
+.hd600_area .hd600_colors{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 967px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 5em auto;
+	}
+.hd600_colors div img{
+	max-width:300px;
+	width:100%
+	}
+.hd600_colors div p{
+	text-align: center;
+    margin: 1em 0;
+	}
+@media screen and (max-width: 425px){
+	.hd600_colors div p{
+		font-size: 1.5em;
+		margin: 0 0 1em 0;
+		}
+	.hd600_area .hd600_colors .og{
+		margin: 4em 0;
+		}
+	}
+.hd600_colors div .btn_reserve{
+	display: block;
+    max-width: 250px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    background: crimson;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 0.5em 0;
+	text-decoration: none;
+	border-radius: 10px;
+	}
+@media screen and (max-width: 425px){
+	.hd600_colors div .btn_reserve{
+		padding: 1em 0;
+		}
+	}
+.hd600_colors div .btn_reserve:hover{
+    background:#fff;
+    color: crimson;	
+	}
+.hd500_area{
+	margin: 10em 0 0 0;
+	}
+.hd500_area p,a{
+	font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", sans-serif;
+	}
+.hd500_colors div p{
+	text-align: center;
+    margin: 1em 0;
+    font-size: 1.2em;
+	}
+.hd500_area .hd500_colors{	
+    display: flex;
+    justify-content:space-around;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: nowrap;
+	margin: 5em 0;
+	}
+.hd500_colors div img{
+	max-width:450px;
+	width:100%
+	}
+@media screen and (max-width: 425px){
+	.hd500_colors div p{
+		font-size: 1.5em;
+		margin: 0 0 1em 0;
+		}	
+	.hd500_colors div img{
+		max-width: 300px;
+		}
+	}
+.hd500_colors div .btn_reserve{
+	display: block;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    background: crimson;
+    color: #fff;
+    font-size: 1.4em;
+    padding: 0.5em 0;
+	text-decoration: none;
+	border-radius: 10px;
+	}
+.hd500_colors div .btn_reserve:hover{
+    background:#fff;
+    color: crimson;	
+	}
+@media screen and (max-width: 425px){
+	.hd500_colors div .btn_reserve{
+		max-width: 250px;
+		padding: 1em 0;
+		}
+	}
+.price_release{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 967px;
+    width: 100%;
+    margin: auto;
+    border-bottom: 1px solid #eaeaea;
+	flex-wrap: wrap;
+	}
+.price_release .release{
+	margin: 0;
+    font-size: 3em;
+    font-weight: lighter;
+    border-top: none;
+	line-height: 1.0em;
+	}
+.price_release .release .noisecancel{
+	display:block;
+	font-size:0.4em;
+	}
+.price_release .release .date{
+	display:block;
+	font-size:0.6em;
+	margin: 0.5em;	
+	}
+.price_release .price{
+	margin: 0;
+    display: flex;
+    flex-direction: row;
+    font-size: 2em;
+    align-items: flex-end;
+	}
+@media screen and (max-width: 425px){
+	.price_release .release{
+		margin: 0 1em;		
+		}
+	.price_release .price{
+		display: block;
+		width: 100%;
+		margin: 1em;
+		text-align: right;
+		}
+	}
+.price_release .price span{
+	font-size:0.6em;
+	}
+.bnr_questionnaire{
+	display: block;
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+	}
+.questionnaire{
+	position: relative;
+	width: 100%;
+    max-width: 1200px;
+	margin: 5em 0;
+	padding:2em 0;
+	}
+.questionnaire_bg{
+	position: relative;
+    overflow: hidden;
+    max-width: 1200px;
+    width: 100%;
+	overflow: hidden;
+	}
+.questionnaire_bg::before {
+    content: "";
+	top: 0;
+    right: 0;
+    position: absolute;
+    background: #dddfe3;
+    width: 200%;
+    height: 200%;
+    transform: rotate(30deg);
+}
+.questionnaire .questionnaire_text p{
+	font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", sans-serif;
+	color: #515151;
+	}
+.questionnaire .questionnaire_text {
+	position: relative;
+    background: #fff;
+    max-width: 967px;
+    width: 100%;
+    margin: auto;
+    border: 4px double #dddfe3;
+    box-sizing: border-box;
+	}
+.questionnaire .questionnaire_text .bg_head{
+	background: #515151;
+    box-sizing: border-box;
+    padding: 0.2em 0;
+	}
+.questionnaire .questionnaire_text .item_name{
+    font-size: 1.5em;
+    margin: 1em 2em;
+	text-align:center;
+	}
+.questionnaire .questionnaire_text .headline{
+	text-align: center;
+    font-size: 2.0em;
+    font-weight: lighter;
+    background: #515151;
+    color: #fff;
+    margin: 0;
+    padding: 0.25em 0;
+    border-top: 1px dashed #fff;
+    border-bottom: 1px dashed #fff;
+	}
+.questionnaire .questionnaire_text .description{
+	font-size: 1.0em;
+	margin: 2em 8em;
+	}
+@media screen and (max-width: 425px){
+	.questionnaire .questionnaire_text .description{
+		margin: 1em 2em;
+		}
+	}
+.questionnaire .questionnaire_text .term_reward{
+	max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.2em;
+    background: #f6edc6;
+    padding: 1em 2em;
+    color: #515151;
+    box-sizing: border-box;
+	}
+table.term_reward th,tr,td{
+	border:none;
+	}
+@media screen and (max-width: 425px){
+	.questionnaire .questionnaire_text .term_reward th,.questionnaire .questionnaire_text .term_reward td{
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin: 0.5em 0;
+		}
+	.questionnaire .questionnaire_text .term_reward th{
+		font-weight:bold;
+		font-size:1.2em;
+		}
+	.questionnaire .questionnaire_text .term_reward td{
+		font-size: 1.1em;
+		line-height: 1.2em;		
+		}
+	}	
+@media screen and (min-width: 426px){
+	.term_reward td br.pchidden{
+		display:none;
+		}
+	}
+.questionnaire .btn_answer{
+    display: block;
+    background: #ffcf00;
+    max-width: 500px;
+    width: 100%;
+    margin:1em auto;
+    text-align: center;
+    font-size: 2em;
+    padding: 0.5em 0;
+	text-decoration: none;
+	border-radius: 10px;
+	}
+@media screen and (max-width: 425px){
+	.questionnaire .btn_answer{
+		max-width: 300px;
+		}
+	.modal-content .btn_reserve{
+		max-width: 300px;
+		}
+	}
+.note{
+	max-width:1200px;
+	width:100%;
+	background: #efefef;
+	overflow: auto;
+	}
+.note > ul{
+	max-width: 967px;
+    width: 100%;
+    margin: 1em auto;
+    font-size: 0.8em;
+    color: #565656;
+    padding: 1.5em;
+    box-sizing: border-box;
+	}
+@media screen and (max-width: 425px){
+	.note > ul{
+		font-size: 0.5em;
+		line-height: 1.6em;
+		}
+	}	
+.note > ul > li{
+	list-style: none;
+    padding-left: 1em;
+    text-indent: -1em;
+	line-height: 1.4em;
+	}
+.note ol{
+	list-style-position: outside;
+    box-sizing: border-box;
+    padding-left: 1em;
+	}
+.note ol > li{
+	list-style: decimal;
+    list-style-position: inside;
+	line-height: 1.4em;
+	}
+/*modal css*/
+.modal-content {
+    width: 50%;
+    margin: 0;
+    padding: 10px 20px;
+    border: 2px solid #aaa;
+    background: #fff;
+    position: fixed;
+    display: none;
+    z-index: 2;
+	height: 400px;
+	overflow: scroll;
+	}
+@media screen and (max-width: 425px){
+	.modal-content {
+		font-size: 1.0em;
+		width: 80%;
+		height: 350px;
+		}
+	}
+@media screen and (min-width: 968px){
+	.modal-content {
+		height: 600px;
+		}
+	}
+#regContents .modal-content h2{
+	text-align:center;
+    margin: 1em;
+    font-size: 1.8em;
+    font-weight: bold;
+	}
+.modal-content ul{
+	font-size: 1.0em;
+    list-style-type: disc;
+    width: 80%;
+	margin: 0 auto 3em;
+    box-sizing: content-box;
+	}
+@media screen and (max-width: 425px){
+	.modal-content ul{
+		width: 100%;
+		}
+	}
+.modal-content ul li{
+	margin: 0 0 1.2em 0;
+	}
+.modal-content ul li ul{
+	width: 90%;
+    margin: 0.5em auto;
+    font-size: 0.95em;
+	}
+.modal-content ul li ul li{
+	margin:0 0 0.5em 0;
+	}
+.modal-content ul li span{
+	font-weight: bold;
+	}
+.button-close{
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    cursor: pointer;
+    display: block;
+    width: 45px;
+    height: 45px;
+	background: #f3f3f3;
+    border-radius: 50%;
+	}
+@media screen and (max-width: 425px){
+	.button-close{
+		top:0%;
+		}
+	}
+span.cancel {
+	position: relative;
+    margin: auto;
+    display: block;
+    background: #323232;
+    height: 2px;
+    width: 24px;
+    transition: all 0.3s;
+	}
+@media screen and (max-width: 425px){
+	span.cancel {
+		width: 20px;
+		}
+	}
+span.cancel:nth-of-type(1){
+    transform: rotate(45deg);
+	top: 50%;
+	}
+span.cancel:nth-of-type(2){
+    transform: rotate(135deg);
+	top: 47%;
+	}
+.modal-content > div{
+	height: 120px;
+	}
+@media screen and (max-width: 425px){
+	.modal-content > div{
+			height: 60px;
+		}
+	}
+#modal-overlay {
+	z-index: 1 ;
+	display: none ;
+	position: fixed ;
+	top: 0 ;
+	left: 0 ;
+	width: 100% ;
+	height: 120% ;
+	background-color: rgba( 0,0,0, 0.6 ) ;
+}
+.modal-content .questionnaire{
+	margin:0;
+	padding:0;
+	}
+.modal-content .questionnaire .questionnaire_text .description{
+	margin: 2em;
+	}
+.modal-content .questionnaire .term_reward th,.modal-content .questionnaire .term_reward td{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0.5em 0;
+	}
+.modal-content .questionnaire .btn_reserve {
+    display: block;
+	color: #fff;
+    background: crimson;
+    max-width: 350px;
+    width: 100%;
+    margin: 1em auto;
+    text-align: center;
+    font-size: 1.6em;
+    padding: 0.5em 0;
+    text-decoration: none;
+	border-radius: 10px;
+	}
+.modal-content .questionnaire .btn_reserve:hover{
+	color:crimson;
+    background:#fff;	
+	}
+.modal-content .questionnaire .btn_answer{
+	max-width: 350px;
+	font-size: 1.6em;
+	}
+@media screen and (max-width: 425px){
+	.modal-content .questionnaire .btn_answer,.modal-content .questionnaire .btn_reserve{
+		max-width: 250px;
+		}
+	}
+.end{
+	color: #efefef;
+	text-decoration: line-through;
+	}
+.txt_notice{
+	color: crimson;
+	}
+/*検証環境のfooter*/
+.l-footer-contact-tel .tel img{
+	width:100%;
+	}
+#globalfooter-nav .pagetop{
+	width:100%;	
+	}
